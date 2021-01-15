@@ -9,7 +9,7 @@
 # --------------------------
 title: macle                       # the main title
 
-#tagline: macle blog   # it will display as the sub-title
+tagline: make miracle   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   java, python, ai, big data, system trading, machine learning.

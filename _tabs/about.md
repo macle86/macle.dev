@@ -1,5 +1,5 @@
 ---
-title: About
+title: Freedom is not free
 icon: fas fa-info
 order: 4
 
@@ -10,8 +10,6 @@ order: 4
 # MIT License
 ---
 
-
-# Freedom is not free
 - macle (https://macle.dev)
 - macle github (https://github.com/macle86)
 - Wigo AiLab 연구원 (https://github.com/wigoAI)

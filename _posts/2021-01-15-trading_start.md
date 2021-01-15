@@ -2,8 +2,8 @@
 title: 자동매매 ETF 벡테스팅 (레버리지, 인버스)
 author: macle
 date: 2021-01-15 22:30:00
-categories: [자동매매]
-tags: [주식,ETF,비트코인,선물]
+categories: [trading]
+tags: [stock,etf,bitcoin]
 ---
 
 # 연구 방향

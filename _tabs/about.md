@@ -10,6 +10,7 @@ order: 4
 # MIT License
 ---
 
+macle : make miracle 합쳐서 만든 닉네임
 
 # Freedom is not free
 

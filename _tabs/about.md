@@ -1,5 +1,5 @@
 ---
-title: Freedom is not free
+title: About
 icon: fas fa-info
 order: 4
 
@@ -9,6 +9,9 @@ order: 4
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
+
+
+# Freedom is not free
 
 - macle (https://macle.dev)
 - macle github (https://github.com/macle86)

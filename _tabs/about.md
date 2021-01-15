@@ -11,4 +11,8 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+# Freedom is not free
+- macle (https://macle.dev)
+- macle github (https://github.com/macle86)
+- Wigo AiLab 연구원 (https://github.com/wigoAI)
+- 섬세한사람들 모임장 (https://github.com/seomse)

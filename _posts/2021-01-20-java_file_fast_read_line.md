@@ -31,19 +31,19 @@ java 소스에서 아래와 같이 사용할 수 있습니다
 
 ```java
 
-    //java.io 패키지 사용 
+    //java.io 패키지 사용
 	try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), charSet))){
 		 String line;
 	     while ((line = br.readLine()) != null) {
-	    	  
+
 	     }
 	}catch(IOException e){
 		throw new IORuntimeException(e);
 	}
-	
-	
+
+
 	//java.nio 패키지 사용
- 
+
     try (Stream<String> lines = Files.lines(Paths.get(path), StandardCharsets.UTF_8)) {
         //noinspection OptionalGetWithoutIsPresent
         return lines.skip(lineIndex).findFirst().get();
@@ -118,7 +118,7 @@ import com.seomse.commons.utils.FileUtil;
 import com.seomse.commons.utils.time.TimeUtil;
 
 /**
- * 인메모리 검색 분석 엔진에서 
+ * 인메모리 검색 분석 엔진에서
  * 파엘에 저장된 상세 정보를 가져올때 사용하려고 core 기술 개발중 빠른 line 텍스트 성능 테스트
  * @author macle
  */
@@ -171,4 +171,6 @@ public class FileReadLineNumberSpeedTest {
 
 특정라인을 읽을때는 5.3 배정도 라인수를 측정할때 걸리는 속도는 7배 정도의 성능차이를 보였습니다. 정확한 원인에 대한 이유는 알지 못했지만 추측해보자면 nio의 Stream을 활용할 때는 모든 라인을 문자열로 변환하는 시간이 들어가는 것으로 예상됩니다.
 
-라인문자만 체크해보고 필요한 부분만 문자열로 변환하기 떄문이 아닐까 추측 하고 있습니다.
+라인문자만 체크해보고 필요한 부분만 문자열로 변환하기 때문이 아닐까 추측 하고 있습니다.
+
+파일 크기가 크면 클수록 성능 차이는 심할 것으로 예상됩니다.

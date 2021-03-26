@@ -186,7 +186,8 @@ public class StockItem {
 - 데이터 이관 방법은 2가지 형태로 지원합니다
   - 두 db시스템의 connection 을 이용한방식
   - 파일로 내린후 파일을 올리는방식 (json)
-- connection 을 이용한 데이터 복사방식
+
+connection 을 이용한 데이터 복사방식
 
 ```java
 
@@ -224,7 +225,8 @@ public class RowDataCopy {
 
 ```
 
-- data file out
+data file out
+
 ```java
 
 package com.seomse.jdbc.example.admin;
@@ -243,7 +245,8 @@ public class RowDataOut {
 }
 ```
 
-- data file in
+data file in
+
 ```java
 
 package com.seomse.jdbc.example.admin;

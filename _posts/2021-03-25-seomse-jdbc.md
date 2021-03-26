@@ -52,6 +52,7 @@ tags: [java,jdbc]
 
 ## 객체 생성을 편하게 하는 도구
 ```java
+
 package com.seomse.jdbc.example.naming;
 
 import com.seomse.jdbc.connection.ApplicationConnectionPool;

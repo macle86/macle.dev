@@ -48,6 +48,8 @@ tags: [java,jdbc]
 - \<entry key="application.jdbc.naming.datetime"\>DT,TS\</entry\>
 - \<entry key="application.jdbc.naming.seq"\>string,double,long,integer,datetime\</entry\>
 - \<entry key="application.jdbc.naming.default"\>string\</entry\>
+
+
 ## 객체 생성을 편하게 하는 도구
 ```java
 package com.seomse.jdbc.example.naming;

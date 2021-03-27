@@ -2,8 +2,8 @@
 title: java 파일 라인수 얻기, 특정라인 빨리 읽기 (빠른 라인처리)
 author: macle
 date: 2021-01-20 10:30:00 +0800
-categories: [java]
-tags: [java,file]
+categories: [개발]
+tags: [java,file,data]
 ---
 
 # java 빠른 라인처리
@@ -31,11 +31,11 @@ String lineValue = FileUtil.getLine(filePath, 77)
 
 ```java
 
-//java.io 패키지 사용 
+//java.io 패키지 사용
 try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), charSet))){
 	 String line;
      while ((line = br.readLine()) != null) {
-    	  
+
      }
 }catch(IOException e){
 	throw new IORuntimeException(e);
@@ -117,7 +117,7 @@ import com.seomse.commons.utils.FileUtil;
 import com.seomse.commons.utils.time.TimeUtil;
 
 /**
- * 인메모리 검색 분석 엔진에서 
+ * 인메모리 검색 분석 엔진에서
  * 파엘에 저장된 상세 정보를 가져올때 사용하려고 core 기술 개발중 빠른 line 텍스트 성능 테스트
  * @author macle
  */

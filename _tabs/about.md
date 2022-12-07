@@ -1,8 +1,47 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
+title: About
+icon: fas fa-info
 order: 4
+
+# The About page
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT License
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+macle : make miracle 합쳐서 만든 닉네임
+
+# Freedom is not free
+
+- macle (https://macle.dev)
+- macle github (https://github.com/macle86)
+- Wigo AiLab 연구원 (https://github.com/wigoAI)
+- 섬세한사람들 모임장 (https://github.com/seomse)
+- 런온(RUNON) (https://runon.io/)
+  - 자산관리 플랫폼
+
+
+
+# 자기소개
+
+- 자연어처리: 형태소분석기, 문장구분기, 유사영역 인식기, 개체명 인식기,자연어 패턴인식기, 스코어모델링, 룰 베이스 머신러닝 결합한 하이브리드 분류기등 개발
+- 빅데이터 처리: 인메모리 병렬 검색 분석 시스템개발, 병렬처리 플랫폼 개발
+- 데이터 검색 및 처리: 인메모리 검색엔진 개발, RDS 설계
+- 머신러닝, AI: 유명대학과 인공지능 연구, 서비스에 임베딩 모델 연동
+- 플랫폼 개발: AI 플랫폼 , 데이터 수집 분석 플랫폼, 상담품질평가 시스템, 챗봇
+- 모바일: 모바일 CRM , 신라호텔 SCALE, 모바일 보안키패드
+- 정보보안: 보안키패드, 신용정보 보안전송 시스템 개발
+- 특허(회사에서 등록 진행중): 유사관점을 활용한 규칙기반 유사도, 인메모리 검색 분석 엔진, 실시간 빅데이터 분석 시스템을 위한 SNA Lite, 데이터 분석을 위한 자동분류모델 점수 산출 방법론
+
+
+
+회사에서 특징기술 및 AI 전반적인 제품을 직접 설계, 개발한 핵심 개발자 였으며, 주로 연구소에서 제품개발 및 연구개발을 주도 하였음.
+
+개발 된 제품은 여러 금융권에 구축되었고, 회사의 서비스에서도 활용되고 있음
+
+회사 지분이 있었던 개발자로 빅데이터 시장 초기에 여러 금융권 POC 에서 1등을 해서 회사 제품이 금융권에 정착하는데 기여하였음
+
+회사에서 기술세미나가 잘 이루어지게 팀운영을 하였으며, 유용한 기술들에 대해 공부하고 서비스에 적용 함, 유명대학 교수님이 참여하여 회사에서 인공지능(머신러닝, 딥러닝, 자연어처리) 강의를 진행하였고 관련 내용을 바탕으로 석 박사들과 협업하여 서비스에 최신기술을 적용하였음
+
+회사개발과 별개로 개발 공부 및 오픈소스 개발자모임(섬세한사람들) 모임장이며, 관련모임에서는 runon 이라는 로보어드바이저 기반의 자산관리플랫폼을 제작하고 있음

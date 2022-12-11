@@ -82,7 +82,7 @@ img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 #avatar: '/commons/avatar.jpg'
-avatar: https://raw.githubusercontent.com/macle86/macle.dev/main/assets/img/avater.jpg
+avatar: https://raw.githubusercontent.com/macle86/macle.dev/main/assets/img/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
